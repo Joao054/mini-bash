@@ -1,53 +1,53 @@
 I'm a novice programmer, this program is not meant to be useful, just a little fun project (~.^)
 
-Commands:
+ Commands:
 
-1- ls: lists your directories and files
+ 1- ls: lists your directories and files
 
-2- ls -l: lists your directories and files, but also outputs their path
+ 2- ls -l: lists your directories and files, but also outputs their path
 
-3- ls -lf: lists ONLY your files, outputting their path
+ 3- ls -lf: lists ONLY your files, outputting their path
 
-4- ls -f: lists ONLY your files
+ 4- ls -f: lists ONLY your files
 
-5- ls -lr: lists ONLY your directories, outputting their path
+ 5- ls -lr: lists ONLY your directories, outputting their path
 
-6- ls -r: lists ONLY your directories
+ 6- ls -r: lists ONLY your directories
 
-7- ls -n: lists your directories and files, but also counts the amount of folders and files that you have
+ 7- ls -n: lists your directories and files, but also counts the amount of folders and files that you have
 
-8- ls -ln: lists your directories and files, outputs their path and counts the amount of folders and files
+ 8- ls -ln: lists your directories and files, outputs their path and counts the amount of folders and files
 
-9- cd: changes the working directory
+ 9- cd: changes the working directory
 
-10- cd ~: comes back to the default folder
+ 10- cd ~: comes back to the default folder
 
-11- touch: creates files
+ 11- touch: creates files
 
-12- rm: removes files
+ 12- rm: removes files
 
-13- mkdir: create directories
+ 13- mkdir: create directories
 
-14- rm -r: delete directories
+ 14- rm -r: delete directories
 
-15- rmdir: delete directories
+ 15- rmdir: delete directories
 
-16- mv: move files
+ 16- mv: move files
 
-17- mv -r: move directories
+ 17- mv -r: move directories
 
-18- cp: copy files
+ 18- cp: copy files
 
-19- cp -r: copy directories
+ 19- cp -r: copy directories
 
-20- open: open a file
+ 20- open: open a file
 
-21- neofetch: cool stuff happens!
+ 21- neofetch: cool stuff happens!
 
-22- clear: it cleans your mess (*lenny face*)
+ 22- clear: it cleans your mess (*lenny face*)
 
-23- exit: it means bye bye!
+ 23- exit: it means bye bye!
 
-24- sourceC: allows you to see the potato code that i wrote (cuz why not lol)
+ 24- sourceC: allows you to see the potato code that i wrote (cuz why not lol)
 
-25- help: outputs this readME file!
+ 25- help: outputs this readME file!
