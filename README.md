@@ -1,5 +1,7 @@
 I'm a novice programmer, this program is not meant to be useful, just a little fun project (~.^)
 
+This program was written 100% on C# with .net framework 2.0
+
    Commands:
 
     1- ls: lists your directories and files
