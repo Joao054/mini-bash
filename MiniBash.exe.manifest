@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MiniBash.exe" version="1.0.0.0" publicKeyToken="e821e98a775c2f2c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MiniBash" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MiniBash.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MiniBash.exe" size="105912">
+      <assemblyIdentity name="MiniBash" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mUo5jU0DFMl8UrpQ/sQ4iAdjwQ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BYE MESSAGE.txt" size="1507">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>E/NFNE3z7YY1pdNk0fy7qncLSco=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ReadME!.txt" size="1155">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SioHZvDKwJavzuA6qaJto3qcl6E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-B5CA57T\Joao" issuerKeyHash="54bfbdf9a5013abb6eb8ced56c23b08c92e8834a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MjSKkoljFJhr6nrWEdtvjf+Uaro=</DigestValue></Reference></SignedInfo><SignatureValue>KrQALzrrWnpMlBD6pUJjtJe5xyv/ojbgpP37I8Wso5dXXG+AZsyZOEEsqMknjCqcO6DIgVCp47rb3uzvv+nGnuA9tZ4yAwN/5WjWZU8X0y7PIBs7QgNPkftpjxx+i9e+/v/bICEgRcd4hWvOgKB/seGvlXFbQDgvHrsxSu4qwuI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>116PS1JOQM1dbufjonNSVAO8j0ogpaqZbVNVpn6mC4VUq7JTMi0FUDE0GmQjf7RKCNxEkBwyYyPFgKz9NK08lM2l8L7Wem14ejoh/7m1WIrJRYEuRzL5kEiPjdrcVZJuYHJkic0rt9eIgfW4fMm9KUzf0N8VArUjUBeXLE4mF9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba6a94ff8d6fdb11d67aea6b98146389928a3432" Description="" Url=""><as:assemblyIdentity name="MiniBash.exe" version="1.0.0.0" publicKeyToken="e821e98a775c2f2c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-B5CA57T\Joao</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CNhOr8jyQ1MNtjy2tJrKXGltAGA=</DigestValue></Reference></SignedInfo><SignatureValue>yiBbmVfW6/MZ2dNSlRRDlMVx1/1gS+8m/HJEHYMqq8rzyMZWkT0GtkrddvhDpbdgGfzeEkYxaXmrMIKj7vUg4/ZhIC8+C9UWHT0xZXaO1r/Nd6fQxeW7bee0sWeWRjJ0AIti4I2wKOFH4F9ltWnWKqb15dR0QRNaORHKWFfLEmg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>116PS1JOQM1dbufjonNSVAO8j0ogpaqZbVNVpn6mC4VUq7JTMi0FUDE0GmQjf7RKCNxEkBwyYyPFgKz9NK08lM2l8L7Wem14ejoh/7m1WIrJRYEuRzL5kEiPjdrcVZJuYHJkic0rt9eIgfW4fMm9KUzf0N8VArUjUBeXLE4mF9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQUzSX8a+guIpKncMuSDyGwTANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEIANQBDAEEANQA3AFQAXABKAG8AYQBvMB4XDTIyMTAyMTE4MDg1M1oXDTIzMTAyMjAwMDg1M1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBCADUAQwBBADUANwBUAFwASgBvAGEAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA116PS1JOQM1dbufjonNSVAO8j0ogpaqZbVNVpn6mC4VUq7JTMi0FUDE0GmQjf7RKCNxEkBwyYyPFgKz9NK08lM2l8L7Wem14ejoh/7m1WIrJRYEuRzL5kEiPjdrcVZJuYHJkic0rt9eIgfW4fMm9KUzf0N8VArUjUBeXLE4mF9ECAwEAATANBgkqhkiG9w0BAQUFAAOBgQBtuPb8VziHDpg+50ehcUpQPzlmP2brzfUtCFFhugaPUjTwOAY3to+EX7KVjzdbJGmoX/bNBcqrB5zYyOrlgRIcA4Y3ejFuAaPLyk4IGihruX6YMpZ8c4u9e8py/o+mW+1OVoaKmDXlOwaW0KCYlC+AcQ9A+dNed/oGsuyUTHFeCg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
