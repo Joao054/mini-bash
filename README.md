@@ -1,3 +1,5 @@
+I'm a novice programmer, this program is not meant to be useful, just a little fun project (~.^)
+
 Commands:
 
 1- ls: lists your directories and files
